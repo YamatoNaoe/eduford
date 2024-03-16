@@ -1,54 +1,79 @@
 <!DOCTYPE html>
 <html>
 <head>
-
+<link rel="stylesheet" href="styles.css">
 <title>
+Calculator Project
 </title>
 
 </head>
 
 <body>
 
+<table name="calculator" id="calculator">
+<tr>
+<td>
+<input type="text" id="result">
+</td>
+</tr>
+
 <!-- Numerical Buttons and Respective Labels --> 
-<input type="button" id="zero" name="zero">
-<label name="zero_label" for="zero"> 0 </label>
+<tr>
+<td> 
+<button type="button" name="one_button" id="one_button" value="1" onclick="inputFunction"> 1 </button> 
+<button type="button" name="two_button" id="two_button" value="2" onclick="inputFunction"> 2 </button>
+<button type="button" name="three_button" id="three_button" value="3" onclick="inputFunction"> 3 </button>
+<button type="button" name="add_button" id="add_button" class="operation_functions" onclick="inputFunction"> + </button>
+</td>
+</tr>
 
-<input type="button" id="one" name="one">
-<label name="one_label" for="one"> 1 </label>
+<tr>
+<td>
+<button type="button" name="four_button" id="four_button" value="4" onclick="inputFunction"> 4 </button>
+<button type="button" name="five_button" id="five_button"value="5" onclick="inputFunction"> 5 </button>
+<button type="button" name="six_button" id="six_button" value="6" onclick="inputFunction"> 6 </button>
+<button type="button" name="subtract_button" id="subtract_button" class="operation_functions" onclick="inputFunction"> - </button>
+</td>
+</tr>
 
-<input type="button" id="two" name="two">
-<label name="zero_label" for="zero"> 2 </label>
+<tr>
+<td>
+<button type="button" name="seven_button" id="seven_button" value="7" onclick="inputFunction"> 7 </button>
+<button type="button" name="eight_button" id="eight_button" value="8" onclick="inputFunction"> 8 </button>
+<button type="button" name="nine_button" id="nine_button" value="9" onclick="inputFunction"> 9 </button>
+<button type="button" name="multiply_button" id="multiply_button" class="operation_functions" onclick="inputFunction"> * </button>
+</td>
+</tr>
 
-<input type="button" id="three" name="three">
-<label name="zero_label" for="zero"> 3 </label>
+<tr>
+<td>
+<button type="button" name="zero_button" id="zero_button" value="0" onclick="inputFunction"> 0 </button>
+<button type="button" name="clear_button" id="clear_button" class="clear_button" onclick="clearFunction"> DEL </button>
+<button type="button" name="run_button" id="clear_button" class="run_button" onclick="runFunction"> = </button>
+<button type="button" name="divide_button" id="divide_button" class="operation_functions" onclick="inputFunction"> / </button>
+</td>
+</tr>
 
-<input type="button" id="four" name="four">
-<label name="zero_label" for="zero"> 4 </label>
+</table>
 
-<input type="button" id="five" name="five">
-<label name="zero_label" for="zero"> 5 </label>
+<script>
+function runFunction(){
 
-<input type="button" id="six" name="six">
-<label name="zero_label" for="zero"> 0 </label>
+}
+</script>
 
-<input type="button" id="seven" name="seven">
-<label name="zero_label" for="zero"> 0 </label>
+<script>
+function clearFunction(){
 
-<input type="button" id="eight" name="eight">
-<label name="zero_label" for="zero"> 0 </label>
+}
+</script>
 
-<input type="button" id="nine" name="nine">
-<label name="zero_label" for="zero"> 0 </label>
+<script>
+function inputFunction(){
 
-<!-- Operational Buttons and Respective Labels -->
-<input type="button" id="add" name="add">
-<input type="button" id="subtract" name="subtract">
-<input type="button" id="multiply" name="multiply">
-<input type="button" id="divide" name="divide">
+}
+</script>
 
-<!-- Clear and Execute Buttons and Respective Labels --> 
-<input type="button" id="clear" name="clear">
-<input type="button" id="run" name="run">
 
 </body>
 

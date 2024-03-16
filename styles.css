@@ -1,0 +1,22 @@
+table{
+	background-color:red;
+	border: 1px solid black;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+button{
+	padding-right:auto;
+	background-color:black;
+	color:white;
+	font-weight:bold;
+	border:none;
+	border-radius: 5px;
+	width:45px;
+}
+
+.operation_functions{
+
+background-color:purple;
+color:white;
+}
