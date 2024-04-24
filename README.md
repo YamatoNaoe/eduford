@@ -1,1 +1,1 @@
-My first HTML, CSS, and Java Script project.  I'm building a simple calculator that can perform basic arithmatic functions.  
+Added my "build a technical documentation page" project from freecodecamp.org on April 24, 2024
