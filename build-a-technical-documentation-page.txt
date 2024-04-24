@@ -1,0 +1,204 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<title>League of Legends</title>
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<main id="main-doc">
+<nav id="navbar">
+  <header>Navigation</header>
+  <ul>
+    <li><a class="nav-link" href="#top_lane">Top Lane</a></li>
+    <li><a class="nav-link" href="#jungle">Jungle</a></li>
+    <li><a class="nav-link" href="#mid_lane">Mid Lane</a></li>
+    <li><a class="nav-link" href="#adc">ADC</a></li>
+    <li><a class="nav-link" href="#support">Support</a></li>
+    <li><a class="nav-link" href="#resistance_values">Resistance Values</a></li>
+    </ul>
+  </nav>
+
+  <section class="main-section" id="top_lane">
+    <header>Top Lane</header>
+    <p>
+The top lane in League of Legends is typically isolated from the rest of the map, making it a test of individual skill and resilience. Champions in this role are usually tanky bruisers or fighters that excel in one-on-one duels. As a top laner, your focus should be on maintaining control over your lane, farming minions efficiently, and gaining a level advantage over your opponent. It's crucial to keep an eye on the minimap and be aware of potential ganks from the enemy jungler. Utilizing ward coverage in the river and tribush areas can provide crucial vision to ensure your safety.
+    </p>
+    <p>
+In the later stages of the game, top laners often become significant in team fights due to their ability to initiate or absorb damage. Knowing when to join your team for objectives like Dragon, Baron, or team fights can dictate the flow of the game. Split-pushing is another strategy where the top laner pressures a side lane to draw attention and resources from the enemy team, creating advantages elsewhere on the map. Mastery of your champion's mechanics and understanding when to apply pressure or peel for teammates are vital skills for a top laner.
+    </p>
+
+    </section>
+
+  <section class="main-section" id="jungle">
+    <header>Jungle</header>
+    <p>
+Junglers have a unique role, roaming the map and controlling the pace of the game through ganks and objective control. Early in the game, effective junglers will plan their routes to maximize efficiency in farming jungle camps while keeping an eye out for opportunities to gank lanes. Knowing the positioning and status of enemy wards can help in executing successful ganks. Junglers must also keep track of the respawn timers of major objectives like Dragon and Baron Nashor to secure these game-changing buffs for their team.
+    </p>
+    <p>
+Communication with your team is crucial as a jungler. Alerting your teammates about your ganking routes or when you need assistance at objectives can significantly increase your impact. As the game progresses, the jungler's role shifts towards securing vision around important objectives and picking off key targets in skirmishes and team fights. Adapting your strategy based on the state of the game—whether focusing on farming, counter-jungling, or intensifying gank efforts—is key to becoming a formidable jungler.  
+    </p>
+    </section>
+
+  <section class="main-section" id="mid_lane">
+    <header>Mid Lane</header>
+     <p>
+Mid laners occupy the central lane of the map, giving them access to both sides of the jungle and other lanes, making them pivotal in controlling the game's tempo. Champions in this role typically have high burst damage or utility and excel in short, impactful fights. Farming efficiently while avoiding ganks is crucial in the mid lane due to its vulnerability from multiple angles. Successful mid laners will balance between farming minions and looking for opportunities to impact other lanes through roams.
+    </p>
+    <p>
+Mid-game, mid laners should focus on securing objectives and participating in team fights, using their abilities to shift encounters in their team's favor. Positioning in team fights is critical, as mid laners often have the potential to change the outcome of a fight with their damage output or crowd control. Securing vision around key areas and communicating with teammates about enemy movements can help dominate the mid-game phase.  
+    </p>
+    </section>
+
+  <section class="main-section" id="adc">
+    <header>ADC</header>
+     <p>
+ADCs are crucial for their team's damage output, especially in the later stages of the game. Early on, ADCs focus on farming in the bot lane, supported by their support player. The key is to amass as much gold as possible through minion kills to purchase powerful items that enhance their attacking capabilities. Positioning is vital for an ADC due to their general lack of defensive capabilities; staying behind the frontline and delivering consistent damage is their primary role.  
+    </p>
+    <p>
+As the game transitions to team fights, the ADC's role becomes more pronounced. They must navigate the battlefield's chaos, focusing on maintaining their position to safely deliver high damage. Awareness of enemy threats and effective communication with the team about target prioritization can lead to successful engagements and ultimately, securing victories in critical fights. ADCs should also be attentive to map objectives and join their team to quickly take down turrets, dragons, and Barons. 
+    </p>
+    </section>
+
+  <section class="main-section" id="support">
+    <header>Support</header>
+     <p>
+Supports play a multifaceted role, primarily focusing on assisting their ADC in the early game and ensuring their team's vision and safety throughout the match. In lane, supports control the tempo by engaging or disengaging fights, protecting the ADC, and providing opportunities for kills through crowd control or damage. Warding is a critical responsibility for supports, as vision around key areas can prevent ganks and secure objectives.
+    </p>
+    <p>
+As the game progresses, the support's role expands to include initiating team fights, peeling for high-value teammates, and controlling major map objectives. Understanding the strengths and weaknesses of your champion and adapting to the needs of the team—whether through tanking, healing, or providing buffs—can make a significant impact. Coordination and communication with your team are paramount in maximizing the effectiveness of your plays and ensuring strategic advantages.  
+    </p>
+    </section>
+
+<section class="main-section" id="resistance_values">
+  <header>Resistance Values</header>
+  <p>
+    Examples for Armor using 1,000 raw damage
+    <ul>
+      <li>
+        <code>25 armor → 1,000  ÷  (1  +  25  ÷  100)  =  1,000  ÷  1.25  =  800
+        </code>
+        <div>Total damage reduction 20%,  + 25% effective health, 1,000 post-mitigation damage  =  1,250 Raw Damage</div>
+        </li>
+
+        <li>
+        <code>100 armor → 1,000  ÷  (1  +  100  ÷  100)  =  1,000  ÷  2  =  500
+        </code>
+        <div>Total damage reduction 50%,  + 100% effective health, 1,000 post-mitigation damage  =  2,000 Raw Damage</div>
+        </li>
+
+        <li>
+        <code>200 armor → 1,000  ÷  (1  +  200  ÷  100)  =  1,000  ÷  3  =  333.34
+        </code>
+        <div>Total damage reduction 66.66%,  + 200% effective health, 1,000 post-mitigation damage  =  3,000 Raw Damage</div>
+        </li>
+    </ul>
+    <br>
+Examples for Magic Resist Using 1,000 raw damage
+<ul>
+      <li>
+        <code>25 Magic Resistance → 1,000  ÷  (1  +  25  ÷  100)  =  1,000  ÷  1.25  =  800
+        </code>
+        <div>Total damage reduction 20%,  + 25% effective health, 1,000 post-mitigation damage  =  1,250 Raw Damage</div>
+        </li>
+
+        <li>
+        <code>100 Magic Resistance → 1,000  ÷  (1  +  100  ÷  100)  =  1,000  ÷  2  =  500
+        </code>
+        <div>Total damage reduction 50%,  + 100% effective health, 1,000 post-mitigation damage  =  2,000 Raw Damage</div>
+        </li>
+
+        <li>
+        <code>200 Magic Resistance → 1,000  ÷  (1  +  200  ÷  100)  =  1,000  ÷  3  =  333.34
+        </code>
+        <div>Total damage reduction 66.66%,  + 200% effective health, 1,000 post-mitigation damage  =  3,000 Raw Damage</div>
+        </li>
+    </ul>
+  </p>
+</section>
+  </main>
+
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+div{
+  padding-left:10px;
+  font-style:italic;
+}
+
+body{
+  display:block;
+  margin:8px;
+}
+
+header{color:black;
+margin:10px;
+text-align:center;
+font-size:1.8em;
+line-height:1.5
+}
+
+nav{
+  display:block;
+  position:fixed;
+  min-width:290px;
+  top:0px;
+  left:0px;
+  width:300px;
+  border-right:solid;
+  border-color:rgba(0,22,22,0.4);
+  line-height:1.5;
+}
+
+#navbar{
+  position:fixed;
+  min-width:290px;
+  top:0px;
+  left:0px;
+  width:300px;
+  height:100%;
+  border-right:solid;
+  border-color:rgba(0, 22, 22, 0.4);
+}
+
+#navbar li{
+  color:#4d4e53;
+  border-top:1px solid;
+  position:relative;
+  width:100%;
+  list-style:none;
+}
+
+li{display:list-item;
+text-align:-webkit-match-parent;
+}
+
+#navbar a{
+  display:block;
+  padding:10px 30px;
+  color:#4d4e53;
+  text-decoration:none;
+}
+
+#main-doc {
+  position:absolute;
+  margin-left:310px;
+  padding:20px;
+  margin-bottom:110px;
+}
+
+section header{
+  text-align:left;
+  margin:0px;
+}
+
+@media (min-width: 30em) and (max-width: 50em) {
+  /* … */
+}
+
+** end of undefined **
+
